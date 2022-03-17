@@ -252,6 +252,7 @@ export const TechDocsIndexPage: () => JSX.Element;
 export type TechDocsMetadata = {
   site_name: string;
   site_description: string;
+  nav?: TechDocsNav;
 };
 
 // @public
